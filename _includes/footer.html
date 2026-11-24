@@ -1,0 +1,15 @@
+<div class="academic-footer">
+  <div>
+    <p class="footer-name">{{ site.name | escape }}</p>
+    <p>{{ site.author.employer | escape }}</p>
+  </div>
+  <div class="footer-links">
+    {% if site.author.email %}
+      <a href="mailto:{{ site.author.email | escape }}">Email</a>
+    {% endif %}
+    {% if site.author.github %}
+      <a href="https://github.com/{{ site.author.github | escape }}">GitHub</a>
+    {% endif %}
+    <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a>
+  </div>
+</div>

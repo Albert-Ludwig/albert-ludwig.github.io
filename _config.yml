@@ -1,0 +1,130 @@
+locale: en-US
+site_theme: default
+title: Haoran Ji
+title_separator: "·"
+name: Haoran Ji
+description: "Haoran Ji studies Mechatronics Engineering at McMaster University and focuses on robotics and autonomous systems."
+url: https://albert-ludwig.github.io
+baseurl: ""
+repository: Albert-Ludwig/albert-ludwig.github.io
+
+author:
+  name: Haoran Ji
+  bio: Mechatronics Engineering undergraduate
+  employer: McMaster University
+  github: Albert-Ludwig
+  avatar: # Filename in images/
+  email: # Add a public email address if desired.
+
+social:
+  type: Person
+  links:
+    - https://github.com/Albert-Ludwig
+
+media:
+  cv_pdf: # Root-relative path, e.g. /files/haoran-ji-cv.pdf
+  research_figures: []
+  project_videos: []
+
+og_description: "Mechatronics Engineering at McMaster University. Research in robotics and autonomous systems."
+og_image: # Optional filename in images/
+breadcrumbs: false
+future: false
+atom_feed:
+  hide: true
+
+include:
+  - _pages
+  - files
+exclude:
+  - AGENTS.md
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - assets/js/_main.js
+  - assets/js/plugins
+  - docker-compose.yaml
+  - local
+  - markdown_generator
+  - node_modules
+  - package.json
+  - package-lock.json
+  - scripts
+  - talkmap.py
+  - vendor
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  header_links: false
+
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /projects/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: /:categories/:title/
+timezone: Etc/UTC
+
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: development

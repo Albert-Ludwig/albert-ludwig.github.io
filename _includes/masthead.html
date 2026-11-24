@@ -1,0 +1,15 @@
+<header class="masthead">
+  <div class="masthead__inner-wrap">
+    <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <nav aria-label="Main navigation">
+      <ul class="academic-nav">
+        {% for link in site.data.navigation.main %}
+          {% assign parent_path = page.url | slice: 0, link.url.size %}
+          <li>
+            <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% elsif link.url != '/' and parent_path == link.url %} class="is-current"{% endif %}>{{ link.title | escape }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

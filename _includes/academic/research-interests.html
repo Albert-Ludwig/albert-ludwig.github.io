@@ -1,0 +1,5 @@
+<ul class="interest-list">
+  {% for interest in site.data.research_interests %}
+    <li>{{ interest | escape }}</li>
+  {% endfor %}
+</ul>
