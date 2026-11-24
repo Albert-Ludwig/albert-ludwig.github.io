@@ -1,6 +1,6 @@
 ---
 title: CV
-description: "Curriculum vitae and academic profile of Haoran Ji."
+description: "Curriculum vitae and academic profile of Johnson Ji."
 permalink: /cv/
 ---
 

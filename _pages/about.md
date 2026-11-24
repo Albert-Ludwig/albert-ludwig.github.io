@@ -1,6 +1,6 @@
 ---
-title: Haoran Ji
-description: "Haoran Ji is a Mechatronics Engineering undergraduate at McMaster University working on robotics and autonomous systems."
+title: Johnson Ji
+description: "Johnson Ji is a Mechatronics Engineering undergraduate at McMaster University working on robotics and autonomous systems."
 permalink: /
 hide_title: true
 ---
@@ -20,7 +20,7 @@ hide_title: true
       {% assign portrait_path = site.author.avatar | prepend: '/images/' %}
       <img src="{{ portrait_path | relative_url }}" alt="Portrait of {{ site.author.name | escape }}">
     {% else %}
-      <span class="portrait-initials" aria-hidden="true">HJ</span>
+      <span class="portrait-initials" aria-hidden="true">JJ</span>
       <span class="portrait-label">Portrait to be added</span>
     {% endif %}
   </div>

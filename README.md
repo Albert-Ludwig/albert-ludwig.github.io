@@ -1,6 +1,6 @@
-# Haoran Ji · Academic website
+# Johnson Ji · Academic website
 
-Personal academic website for Haoran Ji, a Mechatronics Engineering undergraduate at McMaster University. The site uses [Academic Pages](https://github.com/academicpages/academicpages.github.io) and Jekyll.
+Personal academic website for Johnson Ji, a Mechatronics Engineering undergraduate at McMaster University. The site uses [Academic Pages](https://github.com/academicpages/academicpages.github.io) and Jekyll.
 
 **Website** [albert-ludwig.github.io](https://albert-ludwig.github.io)
 
@@ -31,7 +31,7 @@ This example adds a CV, a research figure, and a project video.
 
 ```yaml
 media:
-  cv_pdf: /files/haoran-ji-cv.pdf
+  cv_pdf: /files/johnson-ji-cv.pdf
   research_figures:
     - path: /images/research/field-reconstruction.png
       alt: "Map showing the reconstructed environmental field"

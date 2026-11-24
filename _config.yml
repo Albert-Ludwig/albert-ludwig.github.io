@@ -1,15 +1,15 @@
 locale: en-US
 site_theme: default
-title: Haoran Ji
+title: Johnson Ji
 title_separator: "·"
-name: Haoran Ji
-description: "Haoran Ji studies Mechatronics Engineering at McMaster University and focuses on robotics and autonomous systems."
+name: Johnson Ji
+description: "Johnson Ji studies Mechatronics Engineering at McMaster University and focuses on robotics and autonomous systems."
 url: https://albert-ludwig.github.io
 baseurl: ""
 repository: Albert-Ludwig/albert-ludwig.github.io
 
 author:
-  name: Haoran Ji
+  name: Johnson Ji
   bio: Mechatronics Engineering undergraduate
   employer: McMaster University
   github: Albert-Ludwig
@@ -22,7 +22,7 @@ social:
     - https://github.com/Albert-Ludwig
 
 media:
-  cv_pdf: # Root-relative path, e.g. /files/haoran-ji-cv.pdf
+  cv_pdf: # Root-relative path, e.g. /files/johnson-ji-cv.pdf
   research_figures: []
   project_videos: []
 
